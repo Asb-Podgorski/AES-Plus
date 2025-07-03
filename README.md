@@ -1,16 +1,26 @@
 # AES-Plus
+
 This is a simple Python-based encryption and decryption tool that demonstrates how AES encryption can be applied with multiple modes, such as CBC and CTR, to encrypt data in blocks.
 
+---
 
-Features
-** AES encryption with randomly selected modes per block (CBC, CTR, etc.)
-** User-provided keys and plaintext/ciphertext input
-** Basic encryption and decryption demonstration
+## Features
 
+- AES encryption with randomly selected modes per block (CBC, CTR, etc.)  
+- User-provided keys and plaintext/ciphertext input  
+- Basic encryption and decryption demonstration  
 
-Requirements
-** Python 3.x
-** pycryptodome {pip install pycryptodome}
+---
+
+## Requirements
+
+- Python 3.x  
+- `pycryptodome`  
+
+Install dependencies with:
+
+```bash
+pip install pycryptodome
 
 
 How to Use?
